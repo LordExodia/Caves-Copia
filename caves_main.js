@@ -140,7 +140,7 @@ function CavesMain() {
   }
   // Add some random deep balls to find while digging!
   radius = 7.0;
-  for (var i = 0; i < 50; ++i) {
+  for (var i = 0; i < 25; ++i) {
     var ballx = randm11() * size/3 + size/2;
     var bally = randm11() * size/3 + size/2;
     var ballz = randm11() * size*0.1 + size*0.8;
@@ -205,7 +205,7 @@ function CavesMain() {
         addBall(eyePos[0] + forward[0]*nextCutDist + randm11() * 1.0,
                 eyePos[1] + forward[1]*nextCutDist + randm11() * 1.0,
                 eyePos[2] + forward[2]*nextCutDist + randm11() * 1.0,
-                40.0 + randm11() * 1.0);
+                4.0 + randm11() * 1.0);
       }
       if (needUpdate) {
         cubes.update();
