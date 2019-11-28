@@ -206,7 +206,7 @@ Hold left mouse button to carve.
     glare = glare*glare;
     vec4 ambient = mix(u_ambientDown, u_ambientUp, (normal.z + 1.0)/2.0);
     // Gamma correction approximation (sqrt)
-    gl_FragColor = vec4((sqrt(ambient + light * u_lightColor) * diffuse).xyz, 0.0);
+    gl_FragColor = vec4((sqrt(ambient + light * u_lightColor) * diffuse).xyz, 1.0);
   }
 </script>
 
