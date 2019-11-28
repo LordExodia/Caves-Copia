@@ -205,7 +205,7 @@ function CavesMain() {
         addBall(eyePos[0] + forward[0]*nextCutDist + randm11() * 1.0,
                 eyePos[1] + forward[1]*nextCutDist + randm11() * 1.0,
                 eyePos[2] + forward[2]*nextCutDist + randm11() * 1.0,
-                4.0 + randm11() * 1.0);
+                40.0 + randm11() * 1.0);
       }
       if (needUpdate) {
         cubes.update();
