@@ -140,7 +140,7 @@ function CavesMain() {
   }
   // Add some random deep balls to find while digging!
   radius = 7.0;
-  for (var i = 0; i < 25; ++i) {
+  for (var i = 0; i < 50; ++i) {
     var ballx = randm11() * size/3 + size/2;
     var bally = randm11() * size/3 + size/2;
     var ballz = randm11() * size*0.1 + size*0.8;
